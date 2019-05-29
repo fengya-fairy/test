@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>我的日志</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/blog.css" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+  </head>
+  <body>
+    <nav>
+        <ul>
+            <li>
+              <a href="index.html"> 主页面 </a>
+            </li>
+            <li>
+              <a href="blog.html">我的日志</a>
+            </li>
+             <li>
+              <a href="work.html">我的成果</a>
+            </li>
+            <li>
+                <a href="resume.html">我的简历</a>
+            </li>
+             <li>
+              <a href="photo.html">我的照片</a>
+            </li>
+            <li>
+              <a href="message.html">访客留言</a>
+            </li>
+            
+          </ul>
+    </nav>
+
+    <div class="text">
+      <div class="blog">
+        <div class="blog_left">
+          <img
+            src="images/blog1.jpg"
+            alt=" "
+            class="img-responsive"
+            data-toggle="modal"
+            data-target="#myModal-1"
+          />
+        </div>
+        <div class="blog_right">
+          <div class="time">
+            <ul>
+              <li>6日</li>
+              <li>2019年5月</li>
+            </ul>
+          </div>
+          <div class="title">
+            <a
+              class="btn btn-primary btn-lg"
+              data-toggle="modal"
+              data-target="#myModal-1"
+              >努力做个生活中的智者</a
+            >
+            <!-- 触发modal模态框 -->
+          </div>
+          <div class="blog_right_list">
+            <ul>
+              <li>
+                <img
+                  src="images/people.png"
+                  style="width:50px;margin-top: 10px"
+                />作者：赵凤雅
+              </li>
+              <li><img src="images/book.png" style="width:48px;" />随感</li>
+            </ul>
+          </div>
+          <a data-toggle="modal" data-target="#myModal-1">
+            <p>
+              所有光芒，需要时间才能被看到。<br />
+
+              所有幸运，都是努力埋下的伏笔。
+            </p>
+          </a>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+
+      <div class="blog">
+        <div class="blog_left">
+          <img
+            src="images/blog2.jpg"
+            alt=" "
+            class="img-responsive"
+            data-toggle="modal"
+            data-target="#myModal-2"
+          />
+        </div>
+        <div class="blog_right">
+          <div class="time">
+            <ul>
+              <li>7日</li>
+              <li>2019年5月</li>
+            </ul>
+          </div>
+          <div class="title">
+            <a
+              class="btn btn-primary btn-lg"
+              data-toggle="modal"
+              data-target="#myModal-2"
+              >权力和观点Power & Point</a
+            >
+          </div>
+          <div class="blog_right_list">
+            <ul>
+              <li>
+                <img
+                  src="images/people.png"
+                  style="width:50px;margin-top: 10px"
+                />作者：赵凤雅
+              </li>
+              <li><img src="images/book.png" style="width:48px;" />英语</li>
+            </ul>
+          </div>
+          <a data-toggle="modal" data-target="#myModal-2">
+            <p>
+              最近朋友圈流传一个段子<br />
+
+              这个段子大多数的人看完会一笑置之
+            </p>
+          </a>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+
+      <div class="blog">
+        <div class="blog_left">
+          <img
+            src="images/blog3.jpg"
+            alt=" "
+            class="img-responsive"
+            data-toggle="modal"
+            data-target="#myModal-3"
+          />
+        </div>
+        <div class="blog_right">
+          <div class="time">
+            <ul>
+              <li>10日</li>
+              <li>2019年5月</li>
+            </ul>
+          </div>
+          <div class="title">
+            <a
+              class="btn btn-primary btn-lg"
+              data-toggle="modal"
+              data-target="#myModal-3"
+              >轻断食减肥法</a
+            >
+          </div>
+          <div class="blog_right_list">
+            <ul>
+              <li>
+                <img
+                  src="images/people.png"
+                  style="width:50px;margin-top: 10px"
+                />作者：赵凤雅
+              </li>
+              <li><img src="images/book.png" style="width:48px;" />瘦身</li>
+            </ul>
+          </div>
+          <a data-toggle="modal" data-target="#myModal-3">
+            <p>
+              轻断食（the Fast Diet）也称“5/2断食法”<br />
+
+              是由英国医学博士麦克尔?莫斯利发起的一种新的减肥方法
+            </p>
+          </a>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+
+    <div
+      class="modal-fade"
+      id="myModal-1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-content">
+        <div class="modal-header">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-hidden="true"
+          >
+            &times;
+          </button>
+          <h4 class="modal-title" id="myModalLabel">
+            努力做个生活中的智者
+          </h4>
+        </div>
+        <div class="modal-body">
+          <p>
+            《麦田里的守望者》中有句话是这么说的:记住该记住的，忘记该忘记的。
+          </p>
+          <p>
+            改变能改变的，接受不能改变的。这句话说得非常好，首先，要记住该记住的。什么是我们人生路上应该记住的呢?细细想来，该记住的东西实在是太多了。
+            一次难忘的旅程、一段难忘的美好时光、一次美丽的邂逅……难以忘记的过程，都该是美丽的吧!因为短暂，所以，我们要记住，记住这些生命中的美好。
+          </p>
+          <p>
+            忘记该忘记的，记住了该记住的东西之后，剩下的就该是该忘记的吧!什么需要忘记呢?我想:那些不愉快的经历，
+            那些为了情所受的伤，那些痛苦的过往……都是需要忘记的。作家张小娴曾说过，如果没法忘记他，就不要忘记就好了。真正的忘记，是不需要努力的。是啊!当你清楚的知道记住那些毫无意义的曾经是没有意义的，
+            你会智慧的选择放下的。有时候，需要优雅的转身，而不是一度沉迷于不属于自己的东西。
+          </p>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+
+    <div
+      class="modal-fade"
+      id="myModal-2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-content">
+        <div class="modal-header">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-hidden="true"
+          >
+            &times;
+          </button>
+          <h4 class="modal-title" id="myModalLabel">
+            权力和观点Power & Point
+          </h4>
+        </div>
+        <div class="modal-body">
+          <p>
+            大多数做Powerpoint的人，既没有Power(权力)也没有Point(观点)；
+            那些用Word的人，都没有什么word(话)要说。
+          </p>
+          <p>
+            那些用Excel的人并不excel(优秀)；
+            那些用Access的人,都没有access(权限)。
+          </p>
+          <p>
+            而最大的真像就是，大多数使用Microsoft
+            Office的人，在office(办公室)里都是既micro(卑微)又soft(软弱)的。
+          </p>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+
+    <div
+      class="modal-fade"
+      id="myModal-3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-content">
+        <div class="modal-header">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-hidden="true"
+          >
+            &times;
+          </button>
+          <h4 class="modal-title" id="myModalLabel">
+            轻断食（the Fast Diet）减肥法
+          </h4>
+        </div>
+        <div class="modal-body">
+          <p>
+            即每周中不连续的2天每天只摄取500千卡（女生）
+            或600千卡（男生）能量的食物，其余5天自由饮食，不控制。
+          </p>
+          <p>
+            轻断食:瘦身减肥，保护大脑，抗衰老；降血糖；排毒；提高免疫功能；预防癌症；改善情绪,延年益寿等功能。
+          </p>
+          <p>
+            1.碳水化合物
+            不建议轻断食日全面禁绝碳水化合物的摄入，应挑选升糖指数低的食物，如燕麦、糙米等。<.p>
+          </p>
+
+          <p>
+            2.蛋白质
+            轻断食日应将蛋白质纳入允许的热量额度之内，并应选择“优质蛋白质”，比如清蒸白水鱼、去皮鸡肉和虾等。
+          </p>
+          <p>
+            3.脂肪 轻断食日应尽量减少脂肪的摄入，减少烹调用油，选用低脂食物。
+          </p>
+          <p>
+            4.矿物质
+            轻断食日应减少食盐摄入，采用低盐的烹调方法。同时可适量食用富含钙镁的食物，如脱脂纯牛奶和坚果等。
+          </p>
+          <p>
+            5.维生素
+            轻断食日应适量摄入维生素丰富的食物，如富含维生素B的全麦食品、富含维生素C的草莓等食物。
+          </p>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  </body>
+</html>

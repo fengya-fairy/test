@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>访客留言</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/message.css" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+  </head>
+  <body>
+    <nav>
+        <ul>
+            <li>
+              <a href="index.html"> 主页面 </a>
+            </li>
+            <li>
+              <a href="blog.html">我的日志</a>
+            </li>
+             <li>
+              <a href="work.html">我的成果</a>
+            </li>
+            <li>
+                <a href="resume.html">我的简历</a>
+            </li>
+             <li>
+              <a href="photo.html">我的照片</a>
+            </li>
+            <li>
+              <a href="message.html">访客留言</a>
+            </li>
+            
+          </ul>
+    </nav>
+
+    <div class="text">
+      <div class="liuyan">
+        <div>
+          <img src="images/timg.gif" />
+        </div>
+        <div class="ly">
+          <div class="time">
+            <ul>
+              <li>7日</li>
+              <li>2019年5月</li>
+            </ul>
+          </div>
+          <div class="kk">
+            <ul>
+              <li>
+                <img
+                  src="images/people.png"
+                  style="width:50px;margin-top: 10px"
+                />留言来自：小精灵
+              </li>
+            </ul>
+          </div>
+          <p style="text-align:center;font-size: 13px;">我来踩踩</p>
+        </div>  
+        
+        <div class="ly">
+        <div class="time">
+          <ul>
+            <li>7日</li>
+            <li>2019年5月</li>
+          </ul>
+        </div>
+        <div class="kk">
+          <ul>
+            <li>
+              <img
+                src="images/people.png"
+                style="width:50px;margin-top: 10px"
+              />留言来自：你的同学
+            </li>
+          </ul>
+        </div>
+        <p style="text-align:center;font-size: 13px;">生活有度，人生添寿</p>
+      </div>
+
+      <div class="ly">
+          <div class="time">
+            <ul>
+              <li>7日</li>
+              <li>2019年5月</li>
+            </ul>
+          </div>
+          <div class="kk">
+            <ul>
+              <li>
+                <img
+                  src="images/people.png"
+                  style="width:50px;margin-top: 10px"
+                />留言来自:你的朋友
+              </li>
+            </ul>
+          </div>
+          <p style="text-align:center;font-size: 13px;">
+            时间是一切财富中最宝贵的财富
+          </p>
+        </div>
+      </div>
+
+    
+
+     
+      <div class="login-01">
+        <form>
+          <p
+            style="text-align:center;font-family: aa;font-size: 20px;margin-bottom: 15px;"
+          >
+            访客留言
+          </p>
+          昵称：<input type="text" value="" name="user" /><br /><br />
+
+          性别：
+          <tr>
+            <td>
+              <input type="radio" name="sex" value="1" />男
+              <input type="radio" name="sex" value="1" />女
+            </td>
+          </tr>
+          <br /><br />
+          与我的关系：<br /><input type="radio" name="re" value="1" />师生
+          <input type="radio" name="re" value="1" />同学
+          <input type="radio" name="re" value="1" />亲戚
+          <input type="radio" name="re" value="1" /> 朋友
+          <input type="radio" name="re" value="1" /> 游客<br /><br />
+
+          地址：
+          <tr>
+            <td>
+              <select multiple="multiple">
+                <option>北京</option>
+                <option>上海</option>
+                <option>武汉</option>
+                <option>广州</option>
+                <option>其他</option>
+              </select>
+            </td>
+          </tr>
+          <br /><br />
+          留言：<br /><textarea name="info" cols="50" rows="8">
+填写信息</textarea
+          ><br /><br />
+          <input type="submit" value="提交" class="bu" onclick="tijiao()" />
+          <input type="reset" value="重置" class="bu" onclick="" />
+        </form>
+      </div>
+    </div>
+    <script>
+      function tijiao() {
+        alert("已提交给主人，谢谢你的留言"); //弹出字符串xxx
+      }
+    </script>
+  </body>
+</html>

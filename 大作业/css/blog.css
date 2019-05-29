@@ -1,0 +1,160 @@
+
+.blog{
+background-color:#fff;
+height:190px;
+width:850px;
+border-radius: 25px;
+margin-bottom: 13px;
+
+}
+
+.blog_left{
+    float:left;
+    width:300px;
+    height: 190px;
+	position: relative;
+}
+.blog_right{
+	margin-left: 200px;
+	padding-left: 20px;
+	width:500px;
+	padding-top: 20px;
+	position:absolute;
+	
+}
+.blog_left img{
+    height:170px;
+    width:200px;
+	margin:10px 10px 10px 10px;
+	border-radius: 25px;
+}
+.time{
+	position:absolute;
+	top:40%;
+	right:0%;
+	width:80px;
+	height:80px;
+	background:#23D6E7;
+}
+.time ul li{
+	display: block;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    padding: .7em 0 0;
+}
+/* 第一个 */
+.time ul li:first-child{
+	font-size: 1.3em;
+    border-bottom: 1px solid #fff;
+    padding: .5em 0;
+    font-weight: bold;
+}
+.title{
+	border-bottom: #212121 solid 1px;
+	width: 500px;
+	text-align: center;
+}
+.title a{
+	font-size:1.3em;
+	color:#212121;
+	text-transform:capitalize;
+	text-decoration:none;
+	font-family: aa;
+}
+.title a:focus{
+	outline:none;
+}
+.text a:hover{
+	color:#23D6E7;
+}
+.text a p:hover{
+	color:#23D6E7;
+}
+.blog_right_list ul{
+	padding:1em 0;
+	margin:15px,0px,15px,10px;
+}
+.blog_right_list ul li{
+	color:#999;
+	margin-right:1.5em;
+	display:inline-block;
+}
+
+.blog_right_list ul li a{
+	color:#999;
+	text-decoration:none;
+
+}
+.blog_right_list ul li a:hover{
+	color:#23D6E7;
+}
+.blog_right p{
+	color:#212121;
+	line-height:2em;
+	font-size: 14px;
+	text-align: center;
+
+}
+.title a:focus{
+	outline:none;
+}
+.title {
+    margin:10px,10px,0px,100px;
+}
+
+.modal-fade{
+    position:absolute;
+    top:0%;
+    left:0%;
+    display:none;
+    background:rgba(0,0,0,0.3);
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:9999"
+}
+.modal-content{
+  position: absolute;
+	 left: 25%; 
+	top: 20%; 
+	border-radius: 8px;
+	width: 50%;
+	height: 75%;
+	background-color: #fff; 
+	
+}
+.modal-header {
+	min-height: 10px;
+	padding: 15px;
+	border-bottom: 1px solid #e5e5e5;
+  }
+  .modal-header .close {
+	margin-top: -2px;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background:#23D6E7;
+    color: #fff;
+    opacity: 1;
+	outline:none;
+	float: right;
+    font-size: 21px;
+    font-weight: bold;
+	line-height: 1;
+	cursor: pointer;
+  }
+  .modal-title {
+	margin: 0;
+	line-height: 1.4;
+	font-size: 1.5em;
+    text-align: center;
+    color: #212121;
+	padding: 20px;
+	font-family: aa;
+  }
+.modal-body{
+	padding:15px 20px 10px 20px;
+	text-indent:30px;
+	line-height: 22px;
+}

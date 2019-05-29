@@ -1,0 +1,11 @@
+
+
+td{
+    width:160px;
+    height:30px;
+    font-size:20px;
+}	
+.text{
+    overflow:scroll;
+    background-color:rgba(250, 248, 248, 0.97);
+}

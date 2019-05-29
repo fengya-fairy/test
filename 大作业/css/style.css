@@ -1,0 +1,115 @@
+body{
+     font-family: STHeiti, "Microsoft YaHei", SimSun;
+     background: url(../images/back4.jpg) no-repeat top left;  
+    background-size: cover; 
+    background-size:100%; 
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:1000px;  
+}
+.text{
+    background-color:rgba(250, 248, 248, 0.5);
+    width:900px;
+    height: 580px;
+    margin:auto;
+    padding: 20px;
+   
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 80px;
+}
+nav a{
+    list-style: none;
+    color: #000;
+    text-decoration-line: none;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.index img {
+    margin-left:35em;
+    max-height: 500px;
+}
+.index{
+	position:relative;
+	width: 75%;
+    margin: 0 auto;
+}
+/* 简介栏 */
+.index-1{
+	position: absolute;
+    top: 6%;
+    left:-7%;
+    width: 60%;
+    padding: 1.5em;
+     background: #23D6E7; 
+}
+.i-1{
+	padding: 1.5em;
+    border: 4px double #fff;
+}
+
+.i-1 h2{
+    font-size: 1.2em;
+    color: #000;
+    background: #FFEB00;
+    display: inline-block;
+    padding: .5em 1.5em;
+    position: relative;
+    font-family:aa;
+}
+.i-1 h2:before{
+    width: 0;
+    height: 0;
+    position: absolute;
+    content: '';
+    bottom: -9px;
+    left: 12px;
+    border-style: solid;
+    border-width:13px 40px 0 0px;
+    border-color: #FFEB00 transparent transparent transparent;
+}
+.i-1 h3 {
+    font-size:2em;
+    color: #212121;
+    margin: 0.5em 0 0;
+    
+}
+.i-1 h6 {
+    font-size: 1em;
+    color: #424242;
+    margin-top: 0.8em;
+}
+ul.address {
+    margin-top: 1em;
+    border-top: 1px solid #424242;
+    padding-top: 0.5em;
+}
+ul.address li {
+    display: block;
+}
+ul.address li ul.address-text li:nth-child(1) {
+    width: 28%;
+}
+ul.address li ul.address-text li {
+    display: inline-block;
+    color: #fff;
+    margin-top: 1em;
+    font-weight: 100;
+}
+@font-face {
+    font-family: aa;
+    src: url(../fonts/aa.ttf);
+    }

@@ -1,0 +1,116 @@
+#container{
+    width:80%;
+    height:500px;
+    position:relative;
+   
+}
+
+#container img{
+    padding:5px 5px  5px 5px ;
+    background: #fff;
+    border:1px solid #ddd; 
+    position:absolute;
+    transition:1000ms;
+    max-width: 250px;
+    max-height: 200px;
+
+}
+.pic1{
+    transform:rotate(20deg);
+    -webkit-transform:rotate(20deg);
+    -moz-transform:rotate(20deg);
+     top:250px;
+    left:10px;
+}
+.pic2{
+    transform:rotate(40deg);
+    -webkit-transform:rotate(40deg);
+    -moz-transform:rotate(40deg);
+     top:150px;
+    left:100px;
+}
+.pic3{
+    transform:rotate(30deg);
+    -webkit-transform:rotate(30deg);
+    -moz-transform:rotate(30deg);
+     top:50px;
+    left:130px;
+}
+.pic4{
+    transform:rotate(-20deg);
+    -webkit-transform:rotate(-20deg);
+    -moz-transform:rotate(-20deg);
+     top:70px;
+    left:300px;
+}
+.pic5{
+    transform:rotate(70deg);
+    -webkit-transform:rotate(20deg);
+    -moz-transform:rotate(70deg);
+     top:210px;
+    left:400px;
+    z-index: 45;
+}
+.pic6{
+    transform:rotate(10deg);
+    -webkit-transform:rotate(10deg);
+    -moz-transform:rotate(10deg);
+     top:200px;
+    left:680px;
+    z-index: 50;
+}
+.pic7{
+    transform:rotate(-60deg);
+    -webkit-transform:rotate(-20deg);
+    -moz-transform:rotate(10deg);
+     top:350px;
+    left:200px;
+    z-index: 240;
+}
+.pic8{
+    transform:rotate(20deg);
+    -webkit-transform:rotate(20deg);
+    -moz-transform:rotate(20deg);
+     top:50px;
+    left:400px;
+    z-index: 120;
+}
+.pic9{
+    transform:rotate(70deg);
+    -webkit-transform:rotate(20deg);
+    -moz-transform:rotate(70deg);
+     top:350px;
+    left:500px;
+}
+.pic10{
+    transform:rotate(45deg);
+    -webkit-transform:rotate(35deg);
+    -moz-transform:rotate(45deg);
+     top:120px;
+    left:600px;
+    z-index:300;
+}
+div.intro{
+    width:500px;
+    height:300px;
+  
+     display:none; 
+    text-align: center;
+    background-color: aliceblue
+}
+img:hover{
+    transform:rotate(0deg);
+    transform:scale(2);
+    box-shadow: 5px 5px 5px #ccc;
+    z-index: 900;
+}
+img:hover+div,div:hover{
+    display: block;
+    cursor: pointer;
+    
+   
+}
+
+
+
+
